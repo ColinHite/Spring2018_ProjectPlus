@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/UI_nav_mock_panels.unity
+  isLoaded: 1
+  isActive: 1
