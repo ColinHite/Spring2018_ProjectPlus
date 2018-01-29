@@ -51,9 +51,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\ChangeMenu.cs" />
      <Compile Include="Assets\DeathEvent.cs" />
+     <Compile Include="Assets\MakePauseUIVis.cs" />
      <Compile Include="Assets\NetworkedHealth.cs" />
      <Compile Include="Assets\PlayerDeathUI.cs" />
+     <Compile Include="Assets\UITraFix.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
