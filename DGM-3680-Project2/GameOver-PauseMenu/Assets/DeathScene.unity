@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.5930734, g: 0.603705, b: 0.59965473, a: 1}
+  m_IndirectSpecularColor: {r: 0.5931166, g: 0.603658, b: 0.5996863, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -203,6 +203,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerIsDead: 0
+  reset: 0
+  playerPause: 0
 --- !u!1 &1004867444
 GameObject:
   m_ObjectHideFlags: 0
@@ -391,6 +393,7 @@ GameObject:
   - component: {fileID: 1536936529}
   - component: {fileID: 1536936528}
   - component: {fileID: 1536936527}
+  - component: {fileID: 1536936531}
   m_Layer: 0
   m_Name: Plane
   m_TagString: Untagged
@@ -464,6 +467,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1536936531
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1536936526}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67c73007656f3a441b580a46aa69b626, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  localSkyBox: {fileID: 2100000, guid: 31465e6abc6cc2448a580b4d0d8023fa, type: 2}
+  thing: 0
+  stuff: 0
 --- !u!1 &2086066792
 GameObject:
   m_ObjectHideFlags: 0
