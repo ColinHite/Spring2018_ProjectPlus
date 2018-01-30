@@ -1,13 +1,10 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\DeathEvent.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\ActivateMenu.cs">
     <Files>
       <File FileName="Assets\NetworkedHealth.cs" Line="1" Column="1" />
-      <File FileName="Assets\DeathEvent.cs" Line="64" Column="25" />
-      <File FileName="Assets\PlayerDeathUI.cs" Line="58" Column="25" />
-      <File FileName="Assets\UITraFix.cs" Line="1" Column="1" />
-      <File FileName="Assets\ChangeMenu.cs" Line="1" Column="1" />
-      <File FileName="Assets\MakePauseUIVis.cs" Line="11" Column="32" />
+      <File FileName="Assets\PlayerDeathUI.cs" Line="1" Column="1" />
+      <File FileName="Assets\ActivateMenu.cs" Line="32" Column="2" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
