@@ -26,3 +26,4 @@ public class SpawnCharacter : MonoBehaviour {
 		player.transform.rotation = playerSpawnLocation [Random.Range (0, playerSpawnLocation.Length)].transform.rotation;
 	}
 }
+

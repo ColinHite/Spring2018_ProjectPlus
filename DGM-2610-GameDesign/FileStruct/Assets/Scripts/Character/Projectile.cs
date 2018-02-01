@@ -12,8 +12,10 @@ public class Projectile : MonoBehaviour {
 	//This block contains variables to handle the ammo array, spawn point of the bullet, speed of the bullet and an int value to cycle through the array.
 	public GameObject[] ammoClip;
     public Transform projSpawn;
+	public GameObject projectile;
 	public float speed = 10.0f;
 	public int i = 0;
+	public int ammo = 1;
 
 	//This method is being used to check for the player clicking and nothing else
 	void Update ()
@@ -27,7 +29,13 @@ public class Projectile : MonoBehaviour {
 
 	//This method handles all the actions that need to take place for the bullet to spawn and move. 
     void FireProjectile()
-    {
+	{
+
+		if (ammo <= ammoClip.Length)
+		{
+			ammoClip [i] = Instantiate (projectile, projSpawn.transform.position, projSpawn.transform.rotation);
+		}
+
 		//Resets the projectiles' position and rotation
 		ammoClip [i].transform.position = projSpawn.position;
 		ammoClip [i].transform.rotation = projSpawn.rotation;
@@ -38,21 +46,13 @@ public class Projectile : MonoBehaviour {
 		if (i >= ammoClip.Length - 1) 
 		{
 			i = 0;
+			ammo = ammoClip.Length + 1;
 		} 
 		else 
 		{
+			ammo++;
 			i++;
 		}
 
-		//handles initial spawn interaction
-		StartCoroutine (activateProj ());
     }
-
-	//Handles the initial spawn of the projectiles in the array.
-	public IEnumerator activateProj()
-	{
-		ammoClip [i].SetActive (true);
-
-		yield return null;
-	}
 }
