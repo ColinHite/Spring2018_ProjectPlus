@@ -1,0 +1,226 @@
+fileFormatVersion: 2
+guid: 044d2bfd13c9b694b8f3f8ebf12ca10d
+timeCreated: 1517807702
+licenseType: Free
+ModelImporter:
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: Base
+    100002: Base 1
+    100004: ForeArm
+    100006: ForeArm 1
+    100008: Hand
+    100010: Hand 1
+    100012: L_RailSystem
+    100014: L_RailSystem 1
+    100016: LeftRobotArm
+    100018: RightRobotArm
+    100020: //RootNode
+    100022: RRobotArmAnimBypass
+    100024: Screen
+    100026: Screen 1
+    100028: Shoulder
+    100030: Shoulder 1
+    100032: UI_Boarder_02_Hite:MBLargeShape
+    100034: UI_Boarder_02_Hite:MBSmallShape
+    100036: UI_Boarder_02_Hite:Menu
+    100038: UI_Boarder_02_Hite:MenuBottom
+    100040: UI_Boarder_02_Hite:MenuTop
+    100042: UI_Boarder_02_Hite:MTLargeShape
+    100044: UI_Boarder_02_Hite:MTSmallShape
+    100046: UpperArm
+    100048: UpperArm 1
+    100050: Wrist
+    100052: Wrist 1
+    400000: Base
+    400002: Base 1
+    400004: ForeArm
+    400006: ForeArm 1
+    400008: Hand
+    400010: Hand 1
+    400012: L_RailSystem
+    400014: L_RailSystem 1
+    400016: LeftRobotArm
+    400018: RightRobotArm
+    400020: //RootNode
+    400022: RRobotArmAnimBypass
+    400024: Screen
+    400026: Screen 1
+    400028: Shoulder
+    400030: Shoulder 1
+    400032: UI_Boarder_02_Hite:MBLargeShape
+    400034: UI_Boarder_02_Hite:MBSmallShape
+    400036: UI_Boarder_02_Hite:Menu
+    400038: UI_Boarder_02_Hite:MenuBottom
+    400040: UI_Boarder_02_Hite:MenuTop
+    400042: UI_Boarder_02_Hite:MTLargeShape
+    400044: UI_Boarder_02_Hite:MTSmallShape
+    400046: UpperArm
+    400048: UpperArm 1
+    400050: Wrist
+    400052: Wrist 1
+    2300000: Base
+    2300002: Base 1
+    2300004: ForeArm
+    2300006: ForeArm 1
+    2300008: Hand
+    2300010: Hand 1
+    2300012: L_RailSystem
+    2300014: L_RailSystem 1
+    2300016: Screen
+    2300018: Screen 1
+    2300020: Shoulder
+    2300022: Shoulder 1
+    2300024: UI_Boarder_02_Hite:MBLargeShape
+    2300026: UI_Boarder_02_Hite:MBSmallShape
+    2300028: UI_Boarder_02_Hite:MTLargeShape
+    2300030: UI_Boarder_02_Hite:MTSmallShape
+    2300032: UpperArm
+    2300034: UpperArm 1
+    2300036: Wrist
+    2300038: Wrist 1
+    3300000: Base
+    3300002: Base 1
+    3300004: ForeArm
+    3300006: ForeArm 1
+    3300008: Hand
+    3300010: Hand 1
+    3300012: L_RailSystem
+    3300014: L_RailSystem 1
+    3300016: Screen
+    3300018: Screen 1
+    3300020: Shoulder
+    3300022: Shoulder 1
+    3300024: UI_Boarder_02_Hite:MBLargeShape
+    3300026: UI_Boarder_02_Hite:MBSmallShape
+    3300028: UI_Boarder_02_Hite:MTLargeShape
+    3300030: UI_Boarder_02_Hite:MTSmallShape
+    3300032: UpperArm
+    3300034: UpperArm 1
+    3300036: Wrist
+    3300038: Wrist 1
+    4300000: L_RailSystem
+    4300002: Base
+    4300004: Shoulder
+    4300006: UpperArm
+    4300008: ForeArm
+    4300010: Wrist
+    4300012: Hand
+    4300014: Screen
+    4300016: L_RailSystem
+    4300018: Base
+    4300020: Shoulder
+    4300022: UpperArm
+    4300024: ForeArm
+    4300026: Wrist
+    4300028: Hand
+    4300030: Screen
+    4300032: UI_Boarder_02_Hite:MBLargeShape
+    4300034: UI_Boarder_02_Hite:MBSmallShape
+    4300036: UI_Boarder_02_Hite:MTLargeShape
+    4300038: UI_Boarder_02_Hite:MTSmallShape
+    7400000: RobotArmsPMenu
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: RobotArmsPMenu
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 84
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
