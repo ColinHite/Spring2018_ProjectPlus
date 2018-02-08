@@ -88,6 +88,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\Character\CameraFollow.cs" />
+    <Compile Include="Assets\Scripts\Character\HordeSpawn.cs" />
     <Compile Include="Assets\Scripts\Character\playerDeath.cs" />
     <Compile Include="Assets\Scripts\Character\PlayerMovement.cs" />
     <Compile Include="Assets\Scripts\Character\Projectile.cs" />
