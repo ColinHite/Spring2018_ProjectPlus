@@ -1,0 +1,134 @@
+fileFormatVersion: 2
+guid: 41536a894d4a48d4ea52f223472f8c82
+timeCreated: 1517853366
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: Cliff_05
+    100002: Cliff_06_low
+    100004: Cliff_07_low
+    100006: Cliff_7
+    100008: //RootNode
+    100010: Pillar_07
+    100012: Pillar_07_low
+    100014: Rock_011_low
+    100016: Rock_06_low
+    100018: Rock_09
+    100020: Rock_09_low
+    100022: Rock_10
+    100024: Rock_10_low
+    100026: Rock_11
+    100028: Rock_6
+    400000: Cliff_05
+    400002: Cliff_06_low
+    400004: Cliff_07_low
+    400006: Cliff_7
+    400008: //RootNode
+    400010: Pillar_07
+    400012: Pillar_07_low
+    400014: Rock_011_low
+    400016: Rock_06_low
+    400018: Rock_09
+    400020: Rock_09_low
+    400022: Rock_10
+    400024: Rock_10_low
+    400026: Rock_11
+    400028: Rock_6
+    2300000: Cliff_06_low
+    2300002: Cliff_07_low
+    2300004: Pillar_07_low
+    2300006: Rock_011_low
+    2300008: Rock_06_low
+    2300010: Rock_09_low
+    2300012: Rock_10_low
+    3300000: Cliff_06_low
+    3300002: Cliff_07_low
+    3300004: Pillar_07_low
+    3300006: Rock_011_low
+    3300008: Rock_06_low
+    3300010: Rock_09_low
+    3300012: Rock_10_low
+    4300000: Rock_06_low
+    4300002: Cliff_07_low
+    4300004: Rock_09_low
+    4300006: Rock_10_low
+    4300008: Rock_011_low
+    4300010: Cliff_06_low
+    4300012: Pillar_07_low
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
