@@ -1,4 +1,0 @@
-sceneSetups:
-- path: C:/JuniorProject_Hite/Spring2018_ProjectPlus/Spring2018_ProjectPlus/DGM-3680-Project2/GameOver-PauseMenu/Assets/DeathScene.unity
-  isLoaded: 1
-  isActive: 1

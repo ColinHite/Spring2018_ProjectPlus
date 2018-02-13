@@ -1,18 +1,39 @@
 Junior project:
+
+
 Get the main menu working for the build.
-Get a List: Animations of characters, VFX, Audio in frontend.
+Get a List:
+Animations of characters,
+VFX,
+Audio in frontend.
+
 
 Frontend working in VR game
 
-Character Design:
+Character 
+
+Design:
+
+
 1. Work on character models that we created for class on 02/08/2018.
+
 2. Make 3 iterations of the same character in a grey scale setting.
+
 (5 hours. one for each iteration of the drawing and one for the modeling and value of the character textures)
+
 *correlate your drawings to your character
 Goal date: 02/13/2018
 
+
+
 Game Design:
+
+
 First Person Animation Run, Idle, Jump.
 
+
+
 Writing:
+
+
 Rough Draft of the project proposal.
