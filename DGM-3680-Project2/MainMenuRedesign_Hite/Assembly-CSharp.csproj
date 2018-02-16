@@ -51,29 +51,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-<<<<<<< HEAD
-     <Compile Include="Assets\GameAssets\Art\Shaders\Ben\RegisterHit.cs" />
+     <Compile Include="Assets\CreateDinoMainMenu_Hite.cs" />
      <Compile Include="Assets\LoadingScreen.cs" />
      <Compile Include="Assets\MainMenuHandler.cs" />
      <Compile Include="Assets\SpawnDinoMainMenu.cs" />
-     <None Include="Assets\GameAssets\Art\Shaders\Ben\Hologram.shader" />
-     <None Include="Assets\GameAssets\Art\Shaders\Ben\Glitcher.shader" />
-     <None Include="Assets\GameAssets\Art\Shaders\Ben\SubScatter.shader" />
-     <None Include="Assets\GameAssets\Art\Shaders\Ben\Outliner.shader" />
-     <None Include="Assets\GameAssets\Art\Shaders\Ben\SoftOutliner.shader" />
      <None Include="Assets\aldrich\OFL.txt" />
-     <None Include="Assets\GameAssets\Art\Shaders\Ben\Fog.shader" />
-     <None Include="Assets\GameAssets\Art\Fonts\OpenSans\License!.txt" />
-     <None Include="Assets\GameAssets\Art\Shaders\Ben\New 3D Builder.shader" />
-     <None Include="Assets\GameAssets\Art\Shaders\Ben\OnTop.shader" />
-     <None Include="Assets\GameAssets\Art\Shaders\Ben\Hud.shader" />
-     <None Include="Assets\GameAssets\Art\Shaders\Ben\shield.shader" />
-     <None Include="Assets\GameAssets\Art\Shaders\Ben\Energy.shader" />
-     <None Include="Assets\GameAssets\Art\Fonts\aldrich\OFL.txt" />
-=======
-     <Compile Include="Assets\LoadingScreen.cs" />
-     <Compile Include="Assets\MainMenuHandler.cs" />
->>>>>>> master
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
