@@ -1,39 +1,34 @@
 Junior project:
 
-
-Get the main menu working for the build.
-Get a List:
-Animations of characters,
-VFX,
-Audio in frontend.
-
+You have to get the Nav Mesh working in the places you want to be able to teleport to. 
+You also have to get the joints to work for your main menu character select. 
+Also you have to get the UI elements reworking and the persistant select character script.
 
 Frontend working in VR game
 
-Character 
+Character Design:
 
-Design:
+Do your own thing. This can be things like making tools for maya or doing character design.
 
+Some ideas for maya tools include a renaming script that can find and replace text. 
+A tool that sews geometry together along an edge. 
+A tool that seperates and detatches geometry
+A tool that does all the rigging in the same script.
+  - An update to the scripts that you have finished would be things like changing the joint size and the control size and orientation.
+  - Also making a script that can step through things so that you can give them custom controls would be great. 
+A tool that can double or half frames in the timeline ie if the frame is on 1 and 2 then it would be on frames 1 and 3 or something similar. 
 
-1. Work on character models that we created for class on 02/08/2018.
-
-2. Make 3 iterations of the same character in a grey scale setting.
-
-(5 hours. one for each iteration of the drawing and one for the modeling and value of the character textures)
-
-*correlate your drawings to your character
-Goal date: 02/13/2018
-
-
+Otherwise you could do sillyetts :p
+Also you can redesign your witch character! Oh and color it with your pens and things.
 
 Game Design:
 
 
-First Person Animation Run, Idle, Jump.
+First Person Animation Redo the animations to look better
 
 
 
 Writing:
 
 
-Rough Draft of the project proposal.
+You have to get the anotated bibliography done
