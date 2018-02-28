@@ -1,8 +1,6 @@
 Junior project:
 
-You have to get the Nav Mesh working in the places you want to be able to teleport to. 
-You also have to get the joints to work for your main menu character select. 
-Also you have to get the UI elements reworking and the persistant select character script.
+Get the main menu redone.
 
 Frontend working in VR game
 
@@ -25,7 +23,6 @@ Game Design:
 
 
 First Person Animation Redo the animations to look better
-
 
 
 Writing:
