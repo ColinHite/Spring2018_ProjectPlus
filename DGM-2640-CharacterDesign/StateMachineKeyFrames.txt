@@ -1,0 +1,12 @@
+1 - 23 ready ranged
+24 - 31 ranged shoot
+
+100 - 125 melee ready
+126 - 162 melee idle
+163 - 194 - melee attack
+
+200 - 256 idle
+
+300 - 323 Run
+
+400 - 429 Jump

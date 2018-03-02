@@ -1,7 +1,7 @@
 fileFormatVersion: 2
-guid: e7c447fb7a8599c4d973cde43a2d6d31
-timeCreated: 1519953929
-licenseType: Free
+guid: 7fea825f1e032ce459e66ce1a7eaae7b
+timeCreated: 1520013136
+licenseType: Pro
 ModelImporter:
   serializedVersion: 21
   fileIDToRecycleName:
@@ -229,11 +229,14 @@ ModelImporter:
     4300062: RightThigh
     4300064: Hip
     4300066: Chest
-    7400000: Ranged
-    7400002: Melee
-    7400004: Idle
-    7400006: Run
-    7400008: Jump
+    7400000: RangedReady
+    7400002: RangedAttack
+    7400004: MeleeReady
+    7400006: MeleeIdle
+    7400008: MeleeAttack
+    7400010: Idle
+    7400012: Run
+    7400014: Jump
     9500000: //RootNode
     13700000: LeftBackArm
     13700002: LeftElbow
@@ -258,7 +261,7 @@ ModelImporter:
     materialSearch: 1
   animations:
     legacyGenerateAnimations: 4
-    bakeSimulation: 0
+    bakeSimulation: 1
     resampleCurves: 1
     optimizeGameObjects: 0
     motionNodeName: 
@@ -268,7 +271,7 @@ ModelImporter:
     animationImportWarnings: 
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
-    animationCompression: 1
+    animationCompression: 0
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5
@@ -277,9 +280,37 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: Ranged
+      name: RangedReady
       takeName: Take 001
       firstFrame: 1
+      lastFrame: 23
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: RangedAttack
+      takeName: Take 001
+      firstFrame: 24
       lastFrame: 31
       wrapMode: 0
       orientationOffsetY: 0
@@ -305,9 +336,65 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: Melee
+      name: MeleeReady
       takeName: Take 001
       firstFrame: 100
+      lastFrame: 125
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: MeleeIdle
+      takeName: Take 001
+      firstFrame: 126
+      lastFrame: 162
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: MeleeAttack
+      takeName: Take 001
+      firstFrame: 163
       lastFrame: 194
       wrapMode: 0
       orientationOffsetY: 0
@@ -336,7 +423,7 @@ ModelImporter:
       name: Idle
       takeName: Take 001
       firstFrame: 200
-      lastFrame: 255
+      lastFrame: 256
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -371,7 +458,7 @@ ModelImporter:
       cycleOffset: 0
       loop: 0
       hasAdditiveReferencePose: 0
-      loopTime: 0
+      loopTime: 1
       loopBlend: 0
       loopBlendOrientation: 0
       loopBlendPositionY: 0
@@ -436,7 +523,7 @@ ModelImporter:
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
-    useFileScale: 0
+    useFileScale: 1
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
