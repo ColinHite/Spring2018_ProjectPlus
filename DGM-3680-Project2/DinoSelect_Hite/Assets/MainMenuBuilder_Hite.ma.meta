@@ -1,0 +1,172 @@
+fileFormatVersion: 2
+guid: 3bc45da652b63bb4588a3f7950d9641a
+timeCreated: 1520227901
+licenseType: Free
+ModelImporter:
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: MainMenuDBDec
+    100004: MenuMenuDinoBuilder
+    100006: MMDBDec1
+    100008: MMDBDec10
+    100010: MMDBDec11
+    100012: MMDBDec12
+    100014: MMDBDec13
+    100016: MMDBDec14
+    100018: MMDBDec15
+    100020: MMDBDec16
+    100022: MMDBDec2
+    100024: MMDBDec3
+    100026: MMDBDec4
+    100028: MMDBDec5
+    100030: MMDBDec6
+    100032: MMDBDec7
+    100034: MMDBDec8
+    100036: MMDBDec9
+    400000: //RootNode
+    400002: MainMenuDBDec
+    400004: MenuMenuDinoBuilder
+    400006: MMDBDec1
+    400008: MMDBDec10
+    400010: MMDBDec11
+    400012: MMDBDec12
+    400014: MMDBDec13
+    400016: MMDBDec14
+    400018: MMDBDec15
+    400020: MMDBDec16
+    400022: MMDBDec2
+    400024: MMDBDec3
+    400026: MMDBDec4
+    400028: MMDBDec5
+    400030: MMDBDec6
+    400032: MMDBDec7
+    400034: MMDBDec8
+    400036: MMDBDec9
+    2300000: MenuMenuDinoBuilder
+    2300002: MMDBDec1
+    2300004: MMDBDec10
+    2300006: MMDBDec11
+    2300008: MMDBDec12
+    2300010: MMDBDec13
+    2300012: MMDBDec14
+    2300014: MMDBDec15
+    2300016: MMDBDec16
+    2300018: MMDBDec2
+    2300020: MMDBDec3
+    2300022: MMDBDec4
+    2300024: MMDBDec5
+    2300026: MMDBDec6
+    2300028: MMDBDec7
+    2300030: MMDBDec8
+    2300032: MMDBDec9
+    3300000: MenuMenuDinoBuilder
+    3300002: MMDBDec1
+    3300004: MMDBDec10
+    3300006: MMDBDec11
+    3300008: MMDBDec12
+    3300010: MMDBDec13
+    3300012: MMDBDec14
+    3300014: MMDBDec15
+    3300016: MMDBDec16
+    3300018: MMDBDec2
+    3300020: MMDBDec3
+    3300022: MMDBDec4
+    3300024: MMDBDec5
+    3300026: MMDBDec6
+    3300028: MMDBDec7
+    3300030: MMDBDec8
+    3300032: MMDBDec9
+    4300000: MenuMenuDinoBuilder
+    4300002: MMDBDec1
+    4300004: MMDBDec2
+    4300006: MMDBDec3
+    4300008: MMDBDec4
+    4300010: MMDBDec5
+    4300012: MMDBDec6
+    4300014: MMDBDec7
+    4300016: MMDBDec8
+    4300018: MMDBDec9
+    4300020: MMDBDec10
+    4300022: MMDBDec11
+    4300024: MMDBDec12
+    4300026: MMDBDec13
+    4300028: MMDBDec14
+    4300030: MMDBDec15
+    4300032: MMDBDec16
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
