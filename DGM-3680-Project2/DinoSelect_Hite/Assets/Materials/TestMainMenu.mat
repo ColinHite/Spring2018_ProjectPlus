@@ -73,7 +73,7 @@ Material:
     m_Floats:
     - _BumpScale: 1
     - _ClipRange: 0
-    - _ConstructY: 6.9999957
+    - _ConstructY: 9.900002
     - _CutHight: 1
     - _Cutoff: 0.5
     - _CutoutThresh: 0.2
