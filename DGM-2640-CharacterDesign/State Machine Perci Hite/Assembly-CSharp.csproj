@@ -53,8 +53,12 @@
   <ItemGroup>
      <Compile Include="Assets\MeleeReadyBehave.cs" />
      <Compile Include="Assets\MovePerci_Hite.cs" />
-     <Compile Include="Assets\PerciAnimStateMacHandler_Hite.cs" />
+     <Compile Include="Assets\Old\CreateSword.cs" />
+     <Compile Include="Assets\Old\PerciAnimStateMacHandler_Hite.cs" />
+     <Compile Include="Assets\Old\Weapon.cs" />
      <Compile Include="Assets\RunBehave.cs" />
+     <Compile Include="Assets\ShowUIElementMenu.cs" />
+     <Compile Include="Assets\UIScriptableObject.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>

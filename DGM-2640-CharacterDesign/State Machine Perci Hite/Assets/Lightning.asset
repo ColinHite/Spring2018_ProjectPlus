@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40f5509c9d408b64e9c98ebd6237b7fb, type: 3}
+  m_Name: Lightning
+  m_EditorClassIdentifier: 
+  damageMuliVFire: 2
+  damageMuliVWater: 5
+  damageMuliVEarth: 0.5
+  damageMuliVLightning: 1
+  currentElement: Lightning
+  elementBaseDamage: 25
+  currentBackground: {fileID: 114176396927393532, guid: f8e53751a7b40d84ba327696d6f02271,
+    type: 2}
