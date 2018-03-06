@@ -51,11 +51,16 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\EmitDust.cs" />
+     <Compile Include="Assets\GameEvent.cs" />
+     <Compile Include="Assets\GameEventListener.cs" />
+     <Compile Include="Assets\JumpBehave.cs" />
      <Compile Include="Assets\MeleeReadyBehave.cs" />
      <Compile Include="Assets\MovePerci_Hite.cs" />
      <Compile Include="Assets\Old\CreateSword.cs" />
      <Compile Include="Assets\Old\PerciAnimStateMacHandler_Hite.cs" />
      <Compile Include="Assets\Old\Weapon.cs" />
+     <Compile Include="Assets\RangedReadyBehave.cs" />
      <Compile Include="Assets\RunBehave.cs" />
      <Compile Include="Assets\ShowUIElementMenu.cs" />
      <Compile Include="Assets\UIScriptableObject.cs" />

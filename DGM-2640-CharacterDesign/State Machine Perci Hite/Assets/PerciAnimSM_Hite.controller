@@ -81,6 +81,19 @@ AnimatorController:
     m_IKPass: 0
     m_SyncedLayerAffectsTiming: 0
     m_Controller: {fileID: 9100000}
+--- !u!114 &114070914895899374
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b819d295ba072734aa8be6010ba0ef75, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  turnOnBow: {fileID: 11400000, guid: 81c0f8b42e256194387c02bcea5ca45b, type: 2}
+  turnOffBow: {fileID: 11400000, guid: a5c8db4b88b42d0439582c808d1c580c, type: 2}
 --- !u!114 &114358558146007430
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -92,6 +105,43 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 776bcc408bcfbc140896d7959a76d490, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &114619739174222954
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ad45507aa2a8bb4e90ca134cb7f0142, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  finishJump: {fileID: 11400000, guid: 6f2d68bd46cdcfd4cb67c755bf0ced19, type: 2}
+--- !u!114 &114626087025460346
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b819d295ba072734aa8be6010ba0ef75, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  turnOnBow: {fileID: 11400000, guid: 81c0f8b42e256194387c02bcea5ca45b, type: 2}
+  turnOffBow: {fileID: 11400000, guid: 81c0f8b42e256194387c02bcea5ca45b, type: 2}
+--- !u!114 &114797841749959704
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ad45507aa2a8bb4e90ca134cb7f0142, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  finishJump: {fileID: 11400000, guid: 6f2d68bd46cdcfd4cb67c755bf0ced19, type: 2}
 --- !u!114 &114885440203443228
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -664,7 +714,8 @@ AnimatorState:
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: 1101045566072149492}
-  m_StateMachineBehaviours: []
+  m_StateMachineBehaviours:
+  - {fileID: 114797841749959704}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
   m_WriteDefaultValues: 1
@@ -689,7 +740,8 @@ AnimatorState:
   m_Transitions:
   - {fileID: 1101791762387866924}
   - {fileID: 1101763963509965242}
-  m_StateMachineBehaviours: []
+  m_StateMachineBehaviours:
+  - {fileID: 114626087025460346}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
   m_WriteDefaultValues: 1
@@ -762,7 +814,8 @@ AnimatorState:
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: 1101991415222374658}
-  m_StateMachineBehaviours: []
+  m_StateMachineBehaviours:
+  - {fileID: 114619739174222954}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
   m_WriteDefaultValues: 1
@@ -786,7 +839,8 @@ AnimatorState:
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: 1101735102121341316}
-  m_StateMachineBehaviours: []
+  m_StateMachineBehaviours:
+  - {fileID: 114070914895899374}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
   m_WriteDefaultValues: 1
