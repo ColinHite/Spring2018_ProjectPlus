@@ -1,4 +1,4 @@
 sceneSetups:
-- path: C:/GitHub_Hite/Spring2018_ProjectPlus/DGM-3680-Project2/DinoSelect_Hite/Assets/Test.unity
+- path: Assets/Panels_Hite.unity
   isLoaded: 1
   isActive: 1

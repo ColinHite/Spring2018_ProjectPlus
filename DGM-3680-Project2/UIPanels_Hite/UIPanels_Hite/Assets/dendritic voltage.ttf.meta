@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: eb820c4bbf50e0240a4f14bbe0e6e81c
+timeCreated: 1520875307
+licenseType: Pro
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Dendritic Voltage
+  fontNames:
+  - Dendritic Voltage
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,8 +1,10 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\SwitchUIElement_Hite.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\CountDown_Hite.cs">
     <Files>
+      <File FileName="Assets\CountDown_Hite.cs" Line="56" Column="1" />
       <File FileName="Assets\SwitchUIElement_Hite.cs" Line="13" Column="41" />
+      <File FileName="Assets\StartGameTmp.cs" Line="11" Column="13" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
