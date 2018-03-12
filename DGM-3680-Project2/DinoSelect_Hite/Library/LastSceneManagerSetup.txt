@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Test.unity
+- path: C:/Users/10712935/Desktop/TimerShow_Hite/Assets/Timer.unity
   isLoaded: 1
   isActive: 1
