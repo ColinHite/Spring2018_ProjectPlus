@@ -84,6 +84,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\CountDown_Hite.cs" />
+    <Compile Include="Assets\QuitGame_Hite.cs" />
+    <Compile Include="Assets\StartGameTmp.cs" />
     <Compile Include="Assets\SwitchUIElement_Hite.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2015\UnityVS.CSharp.targets" />
