@@ -52,6 +52,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\CountDown_Hite.cs" />
+     <Compile Include="Assets\QuitGame_Hite.cs" />
      <Compile Include="Assets\StartGameTmp.cs" />
      <Compile Include="Assets\SwitchUIElement_Hite.cs" />
  <Reference Include="UnityEngine.UI">
