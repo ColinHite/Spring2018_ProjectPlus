@@ -53,8 +53,9 @@ public class CountDown_Hite : MonoBehaviour {
 			//These two lines calculate the minutes and seconds that should be initially presented on the timer
 			minute_count = rem_sec/60;
 			show_sec = rem_sec % 60;
-			counter.text = minute_count.ToString () + ":" + show_sec.ToString ("00");
-
+			if (counter != null) {
+				counter.text = minute_count.ToString () + ":" + show_sec.ToString ("00");
+			}
 			//Wait one second before execution
 			yield return new WaitForSecondsRealtime (1);
 			rem_sec--;
@@ -64,8 +65,10 @@ public class CountDown_Hite : MonoBehaviour {
 				//These two lines calculate the minutes and seconds that should be initially presented on the timer
 				minute_count = rem_sec/60;
 				show_sec = rem_sec % 60;
-				counter.text = minute_count.ToString () + ":" + show_sec.ToString ("00");
 
+				if (counter != null) {
+					counter.text = minute_count.ToString () + ":" + show_sec.ToString ("00");
+				}
 				TimedOut.Invoke ();
 			}
 		}
