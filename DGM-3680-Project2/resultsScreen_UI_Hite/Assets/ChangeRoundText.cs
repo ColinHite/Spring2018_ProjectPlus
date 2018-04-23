@@ -17,12 +17,12 @@ public class ChangeRoundText : MonoBehaviour {
 
 	public void ChangeText (int winLoss)
 	{
-		if (winLoss == 1) {
-			roundText.text = roundText.text + "Victory";
-		}
 		if (winLoss == 0) {
 			roundText.text = roundText.text + "Failure";
 		} 
+		if (winLoss == 1) {
+			roundText.text = roundText.text + "Victory";
+		}
 		if (winLoss == 2){
 			roundText.text = roundText.text + "Tie";
 		}

@@ -4,19 +4,13 @@ using UnityEngine;
 
 public class TestCon : MonoBehaviour {
 
-	public float testOutput = -0.5f;
+	public int testOutput;
+	public ChangeRoundText CRT;
 
-	// Use this for initialization
-	void Start () 
+	void Update()
 	{
-			
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		//I have y = cos(x) working and it outputs to 1 to -1
-
-		//I need that out put to be able to be between 0 and 1
-
+		if (Input.GetKeyDown ("w")) {
+			CRT.ChangeText (testOutput);
+		}
 	}
 }
